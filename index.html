@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+
+        <label> enter your name</label>
+        <input type="text" name="fname" value="name" readonly>
+        <br>
+        <br>
+
+        <label>enter your email</label>
+        <input type="email" placeholder="ex.email">
+        <br>
+        <br>
+
+        <label for="password">enter your password</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <br>
+
+        <label>enter your phone</label>
+        <input placeholder="+02123424" disabled>
+        <br>
+        <br>
+
+        <hr>
+        <label for="male">male</label>
+        <input type="radio" id="male" value="male" name="gender">
+        <label for="female">female</label>
+        <input type="radio" id="female" value="female" name="gender">
+        <hr>
+
+        <label for="html">html</label>
+        <input type="checkbox" id="html" value="html" name="html">
+        <label for="css">css</label>
+        <input type="checkbox" id="css" value="css" name="html">
+        <label for="js">js</label>
+        <input type="checkbox" id="js" value="js" name="html">
+        <hr>
+
+        <select name="select">
+            <optgroup label="front-end">
+                <option value="html">html</option>
+                <option value="css">css</option>
+                <option value="js">js</option>
+            </optgroup>
+
+            <optgroup label="back-end">
+                <option value="PHP" selected>PHP</option>
+                <option value="C#">C#</option>
+                <option value="Mysql">Mysql</option>
+            </optgroup>
+        </select>
+
+        <br>
+        <br>
+        <textarea placeholder="write" cols="40" rows="10"> </textarea>
+        <br>
+        <br>
+
+        <button>send</button>
+
+    </form>
+
+    <br>
+    <br>
+
+    <a href="page2.html"> go to page2</a>
+</body>
+
+</html>

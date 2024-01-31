@@ -1,0 +1,44 @@
+body {
+    background-color: #7B66FF;
+    margin: 8;
+    height: 2000px;
+    font-family: segoe UI light;
+
+}
+
+.home {
+    background-color: #5FBDFF;
+    text-align: center;
+    padding: 20px;
+}
+
+.d1 {
+    width: 30%;
+    display: inline-block;
+    background-color: blueviolet;
+    border: 3px white solid;
+    padding: 5px;
+}
+
+.d1 img {
+    width: 100%;
+}
+
+.d1 button {
+    color: #5FBDFF;
+    background-color: #5FBDFF;
+    color: white;
+    border-radius: 10px;
+    border: 1px white solid;
+    width: 100px;
+    height: 40px;
+}
+
+.contianer {
+    height: 450px;
+    margin-top: 50px;
+    background-image: url(img/img-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}

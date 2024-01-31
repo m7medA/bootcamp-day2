@@ -1,0 +1,21 @@
+*Day-2*
+1-Form Tag
+  -label
+  -input
+  -button
+  -radio
+  -checkbox
+  -Select option
+  -text area
+2-CSS
+  -difference between inline & internal & external
+  -class & id
+  -div
+  -Inline & block
+  -padding
+  -Margin
+  -text align center
+  -Porder
+  -Font
+  -background-img
+
